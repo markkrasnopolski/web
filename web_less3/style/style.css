@@ -1,0 +1,15 @@
+table,
+td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    background-color: yellow;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px dashed black;
+    border-left: 3px dashed black;
+}
