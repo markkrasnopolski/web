@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background:#0f172a ;
+
+
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.wrapper{
+    margin: 0 250px;
+    max-width: 1600px;
+}
+.logo span{
+    font-size: 20px;
+    line-height: 28px;
+    color: #2d7efb;
+}
+.logo{
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    color: #fff;
+}
+
+.menu a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    z-index: 100;
+    column-gap: 350px;
+    background: rgba(15,23,42,0.41
+    );
+    margin-top: 30px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.main-text h1{
+    font-size: 60px;
+    line-height: 60px;
+    color: #2d7efb;
+    text-align: left;
+
+}
+.main-text h2 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #8ca4b6;
+    text-align: left;
+}
+
+.card-info h3{
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-info p{
+    color: #7b8e9e;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.work-op{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.work-op h2{
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+}
+.web-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    max-width:400px;
+    padding:40px;
+    border-radius: 10px;
+    border: 1px solid #344055;
+    background: #1d2a3d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 225, 0.4);
+}
+.web-card h3{
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    background: #1d2a3d;
+}
+.web-card p{
+    display: flex;
+    flex-wrap: wrap;
+    color:#899fb5;
+    background: #1d2a3d;
+}
+.web-card ul{
+    display: flex;
+    flex-direction: row;
+    background: #1d2a3d;
+    column-gap: 16px;
+}
+.web-card ul li{
+    color:#9fc1e4;
+    font-size: 14px;
+    line-height: 20px;
+    background: #1d2a3d;
+}
+.status-online1 {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    background: red;
+}
+
+.status-online2 {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    background: green;
+}
+
+.status-online3 {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    background: blue;
+}
+
+.question h2{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.question h3{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    background: #141f33;
+}
+
+.preview-box {
+    position: relative;
+    width: 100%;
+}
+
+.question p{
+    color: #435167;
+    font-size: 14px;
+    line-height: 20px;
+    background: #141f33;
+    padding: 10px 15px 10px 0;
+    margin: auto;
+
+}
+
+.card-flex h3{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    background: #141f33;
+}
+
+.question-card {
+    display: flex;
+    flex-direction: row;
+    row-gap: 26px;
+    max-width:1000px;
+    padding:40px;
+    border-radius: 10px;
+    border: 1px solid #344055;
+    background: #141f33;
+}
+
+.list-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #344055;
+    background: #141f33;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    background: #1d2a3d;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.roadmap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.card-flex{
+    max-width: 150px;
+}
+
+.p themes{}
