@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Форма прийому на роботу</title>
+</head>
+<body>
+
+<section class="hero-section">
+    <div class="wrapper hero-content">
+        <article class="hero-text">
+            <h1>Форма прийому на роботу</h1>
+            <h3>ІТ Компанія "TechInnovate"</h3>
+            <p>Поля позначені синьою лінією є обов'язковими для заповнення</p>
+        </article>
+    </div>
+</section>
+<section class="personal-info">
+    <h2 class="section-title">Персональні дані</h2>
+    <form class="personal-info__form">
+    <label>
+        Ім'я<br>
+        <input type="text" name="Ім'я" value="" placeholder="Введіть ваше ім'я">
+    </label>
+    <label>
+        Прізвище<br>
+        <input type="text" name="Прізвище" value="" placeholder="Введіть ваше прізвище">
+    </label>
+    <label>
+        Email<br>
+        <input type="email" name="Email" value="" placeholder="example@email.com">
+    </label>
+    <label>
+        Телефон<br>
+        <input type="tel" name="Телефон" value="" placeholder="+380 XX XXX XX XX">
+    </label>
+    </form>
+</section>
+
+<section class="prof-info">
+    <h2 class="section-title">Професійна інформація</h2>
+    <form class="personal-info__form">
+        <label>
+            Бажана позиція<br>
+            <input type="text" name="Бажана позиція" value="" placeholder="Введіть ваше ім'я">
+            <select name="position">
+                <option value="Оберіть позиції" selected>Оберіть позицію</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="DevOps Engineer">DevOps Engineer</option>
+                <option value="QA Engineer">QA Engineer</option>
+                <option value="UI/UX Designer">UI/UX Designer</option>
+                <option value="Mobile Developer">Mobile Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+            </select>
+
+        </label>
+        <label>
+            Досвід роботи (років)<br>
+            <input type="number" min="0" max="50" name="Досвід роботи (років)" value="" placeholder="0-50">
+        </label>
+        <label>
+            Технології та навички<br>
+            <textarea rows="1" cols="60" name="Технології та навички" placeholder="React, TypeScript, Node.js, Python)"></textarea>
+        </label>
+    </form>
+</section>
+<section class="additional-info">
+    <label>
+        GitHub профіль<br>
+        <input type="text" name="GitHub профіль" value="" placeholder="https://github.com/username">
+    </label>
+    <label>
+        Портфоліо<br>
+        <input type="text" name="Портфоліо" value="" placeholder="https://yourportfolio.com">
+    </label>
+    <label>
+        Резюме (PDF, DOC)<br>
+        <input type="file" name="Резюме (PDF, DOC)" value="" placeholder="Вибрати файл Файл не вибрано">
+    </label>
+    <label>
+        Коротко про себе<br>
+        <textarea rows="8" cols="60" name="about" placeholder="Розкажіть про свій досвід, мотивацію та чому ви хочете приєднатися до нашої команди... (мінімум 50 символів)"></textarea>
+    </label>
+</section>
+<section class="agreement">
+    <label>
+        <input type="checkbox" name="agreement">Я даю згоду на обробку персональних даних та підтверджую, що вся надана інформація є достовірною
+    </label>
+</section>
+<section class="send-button">
+    <button type="submit">Надіслати заявку</button>
+</section>
+<footer>
+    <div class="footer-content">
+    <h3>💡 Підказки по заповненню:</h3>
+    <ul>✓ Зелена рамка — поле заповнено правильно</ul>
+    <ul>✗ Червона рамка — поле заповнено неправильно</ul>
+    <ul>→ Синя лінія зліва — обов'язкове поле</ul>
+    <ul>↗ Наведіть курсор на поле для ефекту підсвічування</ul>
+    </div>
+</footer>
+
+</body>
+</html>
