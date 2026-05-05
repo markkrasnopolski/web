@@ -1,0 +1,88 @@
+/*:root {*/
+/*    --bg-color: #fff8;*/
+/*    --radius: 50%;*/
+/*    --speed: 0.4s;*/
+/*}*/
+
+/*body{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.card{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    border-radius: var(--radius);*/
+/*    background-color: var(--bg-color);*/
+/*    transition: transform var(--speed);*/
+/*}*/
+
+/*.card:hover{*/
+/*    !*transform: scale(1.5);*!*/
+/*    transform: translateY(20%);*/
+/*}*/
+
+/*:root {*/
+/*    --btn-color: lightgreen;*/
+/*    --btn-color-hover: green;*/
+/*    --speed: 0.5s;*/
+/*}*/
+
+/*button{*/
+/*    padding: 10px 15px;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    background-color: var(--btn-color);*/
+/*    color: white;*/
+/*    font-size: 1.2rem;*/
+/*    cursor: pointer;*/
+/*    transition: background var(--speed), transform var(--speed);*/
+/*}*/
+
+/*button:hover {*/
+/*    background: var(--btn-color-hover);*/
+/*    transform: translateY(-5px) scale(1.05);*/
+/*}*/
+
+:root {
+    --bg-card: gray;
+    --ray-color: orange;
+    --speed: 0.8s;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 350px;
+    background: var(--bg-card);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+.ray{
+    width: 100px;
+    height: 100px;
+    background: var(--ray-color);
+    filter: blur(60px);
+    border-radius: 50%;
+    animation: ray-animation 6s infinite ease-in-out;
+}
+
+@keyframes ray-animation {
+    0% {top: -20%; left: -20%;}
+    25% {top: -60%; left: -70%; background: greenyellow;}
+    50% {top: 30%; left: 20%; background: yellowgreen;}
+    100% {top: -20%; left: -20%; background: var(--ray-color);}
+}
